@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/binRick/cisco-get-routes-cli/issues"
   },
-  "homepage": "https://github.com/binRick/cisco-get-routes-cli#readme"
+  "homepage": "https://github.com/binRick/cisco-get-routes-cli#readme",
+  "dependencies": {
+    "async": "^2.5.0",
+    "chalk": "^2.0.1",
+    "cryptr": "^2.0.0",
+    "prettyjson": "^1.2.1",
+    "ssh2": "^0.5.5",
+    "syncprompt": "^1.0.3",
+    "trim-newlines": "^2.0.0",
+    "validate-ip": "^1.0.1"
+  }
 }
