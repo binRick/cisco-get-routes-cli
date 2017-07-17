@@ -12,8 +12,8 @@ var Client = require('ssh2').Client,
         kex: ['diffie-hellman-group1-sha1'],
         cipher: ['aes128-cbc']
     },
-    config = require('./config'),
-    validateip = require('validate-ip'),
+    config = require('../config'),
+    validateip = require('validate-ip');
 
 config.secret = process.env['PASS_SECRET'];
 
