@@ -21,6 +21,9 @@ if (!config.secret || config.secret.length < 1) {
     config.secret = prompt("Secret: ", {
         secure: true
     });
+	console.log(c.green('Run this command and rerun the getRoute command...'));
+	console.log('export PASS_SECRET="'+config.secret+'"');
+	process.exit();
     process.env['PASS_SECRET'] = config.secret;
 }
 cryptr = new Cryptr(config.secret);
